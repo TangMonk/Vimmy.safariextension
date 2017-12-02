@@ -176,13 +176,13 @@
         return;
       }
 
-      if ( key === 'ctrl-u' ) {
+      if ( key === 'u' ) {
         swallowEvent( event );
 
         scrollBy( 0, -( window.innerHeight / 2 ) );
       }
 
-      if ( key === 'ctrl-d' ) {
+      if ( key === 'd' ) {
         swallowEvent( event );
 
         scrollBy( 0, ( window.innerHeight ) / 2 );
